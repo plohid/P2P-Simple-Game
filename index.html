@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Js Project (Player vs player games) </title>
+    <style>
+        .main-wrapper{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <main class="main-wrapper">
+        <div class="project-area">
+            <div class="p-title">
+                <h1>  <span style="display: inline-block;"> P2P Game </span> </h1>
+                <form class="set-score">
+                    <input type="number" placeholder="set the winning number" id="setScrore">
+                    <button id="Submit">Submit</button>               
+                </form>
+                <h3> Your Set Winning Score is:  <a href="#" class="winScoreSet-Display">  </a>  </h3>  
+                <div class="set-player">
+                    <p>
+                        Player - 1 : <span class="p1Score"> </span>
+                        Player - 2 : <span class="p2Score"></span>
+                    </p>
+                </div>
+                <div class="btn-wrapper">
+                    <button id="p1Btn">Player1</button>
+                    <button id="p2Btn" >Player2</button>
+                    <button id="resetBtn" >Reset Score</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="custom.js"></script>
+</body>
+</html>
